@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const taskSchema = new Schema({
     name: {
-		type: String,
+		type: String, 
 		required: true
 	},
 	username: {
